@@ -7,7 +7,7 @@ import java.util.Iterator;
 
 public class RemoveDuplicateLetters {
     public static void main(String[] args) {
-        String input = "bcabc",output="";
+        String input = "bcabc",output=""; // not working for cbacdcbc
         HashSet<Character> chars = new HashSet<>();
         for(Character ch: input.toCharArray()){
             chars.add(ch);
